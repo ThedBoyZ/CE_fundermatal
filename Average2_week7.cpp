@@ -11,6 +11,11 @@ int main()
         cout << "No " << i + 1 << ": ";
         cin >> numbers[i];
     }
+    cout <<"\n";
+     for (int i = 0; i < n; i++) {
+        cout << "No " << i + 1 << ": ";
+        cout >> numbers[i];
+    }
 
     int sum = 0;
     for (int i = 0; i < n; i++) {
